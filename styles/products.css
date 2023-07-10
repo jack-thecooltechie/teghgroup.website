@@ -210,8 +210,8 @@ margin-left: 6px;
     }
     
     #enquire-product-button:hover{
-        background: var(--colorBackgroundDark);
-    
+        background: whitesmoke;
+        cursor: pointer;
     }
     
 }
