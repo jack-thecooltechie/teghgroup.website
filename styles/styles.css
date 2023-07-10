@@ -28,6 +28,56 @@ h1, h2, h3, h4{
     font-weight: 800;
 }
 
+#whatsapp-sticky-icon{
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 12;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+
+}
+
+#whatsapp-sticky-icon img{
+    height: 32px;
+    width: 32px;
+}
+
+#whatsapp-sticky-icon p{
+    font-weight: 600;
+    display: none;
+}
+
+#whatsapp-sticky-icon:hover{
+    cursor: pointer;
+}
+
+#whatsapp-sticky-icon:hover p{
+    display: block;
+    margin-right: 6px;
+    
+    animation: stickyAnim 0.2s linear forwards;
+    
+}
+
+@keyframes stickyAnim {
+    
+    from 
+    {
+        transform: translateX(20px);
+    }
+  to   
+  {
+    transform: translateX(0);
+}
+}
 
 
 /* Top Bar and Menu Bar */
@@ -488,30 +538,72 @@ h1, h2, h3, h4{
 
 
 
-.video-container{
-    display: flex;
+#video-container{
+    display: none;
+
     position: fixed;
 
-    z-index: 5;
+    z-index: 12;
 
-    background: blue;
+    width: 100%;
     height: 100vh;
+
+    left: 0;
+    top: 0;
+    bottom: 0;
 }
 
-.video-container > div{
+#video-container > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--colorBackgroundDark);
+    margin: 64px 8px;
+
+    width: 100%;
+}
+
+
+#close-icon-container{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
-    position: absolute;
-    right: 0;
-    top: 0;
+    align-self: flex-end;
+    margin-top: 12px;
+    margin-right: 12px;
+    padding: 2px 4px;
+    border-radius: 12px;
+}
+
+
+#close-icon-container:hover{
+    cursor: pointer;
+    
+    background: var(--colorAccent);
+    
+}
+
+
+#close-icon-container img{
+    height: 24px;
+    width: 24px;
+    margin-left: 6px;
+}
+
+#close-icon-container h3{
+    color: white;
+    font-weight: 600;
 }
 
 .about-videos{
-    width: 99%;
-    height: 90%; 
+    width: 100%;
+    height: 100%;
 
-    background: greenyellow;
+    margin: 24px;
 }
 
 
@@ -573,7 +665,7 @@ h1, h2, h3, h4{
 
 .cta-button{
     
-    padding: 4px;
+    padding: 4px 8px;
     background: none;
     display: flex;
     flex-direction: row;
@@ -582,12 +674,12 @@ h1, h2, h3, h4{
     align-self: center;
     text-align: center;
     align-items: center;
-    width: 50%;
+    
 }
 
 .cta-button > h3{
     font-size: 1.2rem;
-    color: var(--colorAccent);
+    color: var(--colorBackgroundDark);
     font-weight: 700;
 }
 
@@ -597,9 +689,6 @@ h1, h2, h3, h4{
     margin-left: 8px;
 }
 
-.cta-button > h3:hover{
-   color: var(--colorBackgroundDark);
-}
 
 
 
@@ -712,7 +801,7 @@ h1, h2, h3, h4{
     margin-bottom: 36px;
 }
 
-#get-in-touch > div{
+#get-in-touch > div:not(.cta-button){
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -736,6 +825,9 @@ h1, h2, h3, h4{
     padding: 16px 8px;
 }
 
+#get-in-touch > .cta-button{
+    align-self: center;
+}
 
 
 /* Footer */
@@ -1213,6 +1305,65 @@ b. Get a colorful background
 
 
 
+#video-container{
+    display: none;
+
+    position: fixed;
+
+    z-index: 12;
+
+    width: 100%;
+    height: 100vh;
+
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#video-container > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--colorBackgroundDark);
+    margin: 64px;
+
+    width: 100%;
+}
+
+
+#close-icon-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    align-self: flex-end;
+    margin-top: 12px;
+    margin-right: 12px;
+    
+}
+
+
+#close-icon-container img{
+    height: 24px;
+    width: 24px;
+    margin-left: 6px;
+}
+
+#close-icon-container h3{
+    color: white;
+    font-weight: 600;
+}
+
+.about-videos{
+    width: 90%;
+    height: 90%; 
+    margin: 24px;
+}
+
+
 
 #about-us-container > :nth-child(1){
     display: flex;
@@ -1290,15 +1441,17 @@ b. Get a colorful background
 
 .cta-button{
     font-size: 1.2rem;
-    padding: 4px;
+    padding: 4px 8px;
     margin-top: 16px;
     align-self: flex-start;
+    border-radius: 16px;
 }
 
 .cta-button:hover{
     background: white;
     filter: drop-shadow(1px, 1px, rgba(0,0,0,1));
     cursor: pointer;
+    
 }
 
 
