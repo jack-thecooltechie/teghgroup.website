@@ -1133,7 +1133,7 @@ h1, h2, h3, h4{
     align-items: start;
     justify-content:center;
     background: rgba(255,255,255,0.0.5);
-    backdrop-filter: blur(10px);
+    
 }
 
 #company-title-hero > h1{
@@ -1305,7 +1305,7 @@ b. Get a colorful background
 
 
 
-#video-container{
+.video-container{
     display: none;
 
     position: fixed;
@@ -1320,7 +1320,7 @@ b. Get a colorful background
     bottom: 0;
 }
 
-#video-container > div{
+.video-container > div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1333,7 +1333,7 @@ b. Get a colorful background
 }
 
 
-#close-icon-container{
+.close-icon-container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1346,13 +1346,13 @@ b. Get a colorful background
 }
 
 
-#close-icon-container img{
+.close-icon-container img{
     height: 24px;
     width: 24px;
     margin-left: 6px;
 }
 
-#close-icon-container h3{
+.close-icon-container h3{
     color: white;
     font-weight: 600;
 }
@@ -1422,7 +1422,7 @@ b. Get a colorful background
 }
 
 .about-us-text-container > p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 16px;
     text-align: start;
 }
@@ -1594,7 +1594,7 @@ b. Get a colorful background
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     background: var(--colorBackgroundDark);
  
     height: 60vh;
@@ -1608,6 +1608,7 @@ b. Get a colorful background
     align-items: flex-start;
     justify-content: center;
     
+    align-self: flex-start;
     width: 25%;
     
 }
@@ -1631,10 +1632,13 @@ b. Get a colorful background
 
 #logo-container-footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     align-self: center;
+    width: 25%;
+
+    
     
 }
 
@@ -1646,6 +1650,8 @@ b. Get a colorful background
     font-size: 1.3rem;
     text-align: center;
     color: var(--textColor);
+
+    
 }
 
 #contact-details-container-footer{
@@ -1660,9 +1666,9 @@ b. Get a colorful background
 #contact-details-container-footer > div{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
-    margin: 8px;
+    margin: 16px 8px;
 }
 
 #contact-details-container-footer img{

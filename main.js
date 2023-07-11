@@ -1,9 +1,9 @@
-var closeButtonVideoPlayer = document.getElementById('close-icon-container');
+var closeButtonVideoPlayer = document.getElementsByClassName('close-icon-container')[0];
 
-var videoContainer = document.getElementById('video-container');
+var videoContainer = document.getElementsByClassName('video-container')[0];
 
-var teghGroupImageClickListener = document.getElementById('teghgroup-video-image');
-var polycabGroupImageClickListener = document.getElementById('polycab-video-image');
+var teghGroupImageClickListener = document.getElementsByClassName('teghgroup-video-image')[0];
+var polycabGroupImageClickListener = document.getElementsByClassName('polycab-video-image')[0];
 
 var teghGroupPlayer = document.getElementById('teghgroup-video');
 
