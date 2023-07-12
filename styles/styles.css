@@ -257,7 +257,7 @@ h1, h2, h3, h4{
 }
 
 .menu-container > ul li a{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color:white;
     text-decoration: none;
 }
@@ -465,7 +465,7 @@ h1, h2, h3, h4{
 }
 
 #explore-products-container h3:hover{
-    font-weight: 600;
+    
 }
 
 #polycab-container-hero{
@@ -1008,7 +1008,7 @@ h1, h2, h3, h4{
     }
 
     .menu-container > ul li a{
-        font-size: 1.05rem;
+        font-size: 1rem;
         color: var(--textColor);
         text-decoration: none;
         font-weight: 500;
@@ -1168,6 +1168,8 @@ h1, h2, h3, h4{
     position: absolute;
     right: 8px;
     top: 170px;
+
+    padding: 4px 2px;
 }
 
 #explore-products-container h3{
@@ -1193,7 +1195,7 @@ h1, h2, h3, h4{
 }
 
 #explore-products-container h3:hover{
-    font-weight: 600;
+    
 }
 
 #polycab-container-hero{

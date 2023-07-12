@@ -45,9 +45,15 @@
 
    }
 
+   .para-item{
+    align-self: flex-start;
+   }
+
    .para-item p{
     font-size: 1rem;
     margin: 12px 0px;
+
+    width: 95%;
    }
 
    .aboutus-element{
@@ -82,14 +88,11 @@
         align-items: center;
         justify-content: center;
         width: 50%;
-        padding: 8px;
-
         
        }
     
        #logo-text-container > img{
-            height: 128px;
-            
+            height: 96px;
        }
     
        .teghgroup-video-image{
@@ -107,8 +110,9 @@
             text-align: center;
             height: 100%;
             font-weight: 700;
-            width: 90%;
-            line-height: 5rem;
+            width: 95%;
+            line-height: 4.75rem;
+            
             
        }
 
@@ -124,7 +128,7 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-around;
 
             background: rgb(235, 235, 235);
             width: 100%;
@@ -176,7 +180,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-around;
+            justify-content:space-evenly;
             
             height: 100%;
         }
