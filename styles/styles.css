@@ -392,23 +392,17 @@ h1, h2, h3, h4{
 
 
 #company-title-hero{
-    position: absolute;
-    left: 6px;
-    top: 275px;
-    right: 6px;
-
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content:center;
     background: rgba(255,255,255,0.0.5);
-    backdrop-filter: blur(10px);
 
 }
 
 #company-title-hero > h1{
     font-size: 2.5rem;
-    color: white;
+    color: black;
     font-weight: 800;
     text-align: center;
     width: 100%;
@@ -419,7 +413,9 @@ h1, h2, h3, h4{
     font-size: 1.5rem;
     color: white;
     font-weight: 500;
-    width: 100%;
+    width: 30%;
+
+    background: green;
     margin-top: 0px;
     margin-top: 16px;
     text-align: center;
@@ -984,7 +980,7 @@ h1, h2, h3, h4{
         padding: 4px 16px;
 
         filter: none;
-
+        background: var(--colorDark);
         margin: 0px;
     }
     
@@ -1115,46 +1111,68 @@ h1, h2, h3, h4{
 
 
 #hero-container-changed{
-    background: url('../images/bg-image-changed.jpg');
+    background: url('../images/hero-image-updated.jpg');
     background-repeat: no-repeat;
-    height: 95vh;
+    height: 75vh;
     background-size: 100% 100%;
     
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
 #company-title-hero{
-    position: absolute;
-    left: 150px;
-    top: 225px;
+   
     
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content:center;
-    background: rgba(255,255,255,0.0.5);
     
 }
 
 #company-title-hero > h1{
-    font-size: 3.5rem;
-    color: white;
+    font-size: 3rem;
+    color: black;
     font-weight: 800;
     text-align: start;
 }
 
 #company-title-hero > h3{
-    font-size: 2rem;
-    color: white;
-    font-weight: 500;
-    width: 70%;
-    margin-top: 0px;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 700;
+    width: 50%;
     margin-top: 16px;
     text-align: start;
+
+    background: none;
 }
 
+    .hero-cta{
+        background: #D93731;
+        border-radius: 0px;
+        margin-left: 44px;
+        padding: 8px 16px;
+    }
+
+    .hero-cta > img{
+        height: 24px;
+        width: 24px;
+    }
+
+    .hero-cta > h3{
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 600;
+    }
+
 #company-title-hero > h3 > span{
-    background-color: #ff000d;
+    color: #D93731;
+    background: none;
     padding: 0px 4px;
     font-weight: 700;
 }
@@ -1164,8 +1182,6 @@ h1, h2, h3, h4{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
-    position: absolute;
     right: 8px;
     top: 170px;
 
@@ -1234,7 +1250,7 @@ b. Get a colorful background
 */
 #products-show-container{
     display: grid;
-    grid-template-columns: repeat(5, 200px);
+    grid-template-columns: repeat(5, 170px);
     margin: 44px 0px;
     padding: 16px;
     background: none;
@@ -1285,7 +1301,7 @@ b. Get a colorful background
 }
 
 .product-item > div{
-    height: 200px;
+    height: 170px;
     filter: drop-shadow(2px, 2px, rgba(0,0,0,1));
 }
 
