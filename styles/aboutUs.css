@@ -1,0 +1,402 @@
+@import url('styles.css');
+
+
+.menu-pages{
+    background: var(--colorDark);
+}
+
+
+#aboutus-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   }
+
+   #aboutus-header{
+    height: 70vh;
+    width: 100%;
+    background: url('../images/about-us-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    
+   }
+
+
+   #aboutus-header h2{
+
+        top: 56px;
+        left: 36px;
+
+        color: white;
+
+        font-size: 1.6rem;
+        font-weight: 700;
+        width: 90%;
+        margin-top: 24px;
+   }
+
+   #aboutus-header > div{
+
+
+    background: rgba(255,255,255,0.25);
+    width: 100%;
+
+    margin: 0px 8px;
+    border: 0.1px solid #000000;
+    filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.2));
+    
+   }
+
+   #aboutus-header > div p{
+    font-size: 0.9rem;
+    width: 100%;
+    margin: 0px;
+    padding: 4px;
+    color: white;
+   }
+
+   #aboutus-container > h1{
+        margin: 24px 0px;
+        font-size: 3rem;
+
+   }
+
+   .para-item{
+    align-self: flex-start;
+    padding: 12px;
+   }
+
+   .para-item p{
+    font-size: 1rem;
+    margin: 12px 12px;
+    text-align: start;
+    width: 85%;
+   }
+
+    .aboutus-info-title{
+        margin-top: 44px;
+        align-self: flex-start;
+        margin-left: 44px;
+    }
+
+   #aboutus-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   #aboutus-information > div{
+    width: 90%;
+    align-self: center;
+    padding: 36px 4px;
+   }
+
+   #aboutus-information > div p{
+    margin: 16px 0px;
+   }
+
+   #about-us-element-container{
+    display: flex;
+    flex-direction: column;
+
+    margin-top:24px;
+    height: 100vh;
+    
+
+    /* background: url('../images/about-us-bg-c-image.jpg'); */
+    background: #eaeaea;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   #about-us-element-container > :nth-child(2){
+        margin: 44px;
+   }
+
+   #about-us-element-container > :nth-child(2) p{
+    margin: 24px 0px;
+    color: black;
+}
+
+#aboutus-information .cta-button{
+    width: 70%;
+}
+
+
+   .aboutus-element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+   }
+
+   .polycab-video-image{
+    width: 50%;
+    margin-left: 44px;
+    align-self: center;
+    align-items: center;
+}
+
+    .polycab-video-image > img{
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+        
+    }
+
+ 
+
+    .about-us-text-container{
+        
+        height: 90%;
+        align-items: flex-start;
+        align-self: flex-start;
+        text-align: start;
+        margin-right: 44px;
+        margin-top: 24px;
+        
+        
+    }
+
+    .about-us-text-container > p{
+        color: rgb(1, 0, 18);
+    }
+ 
+
+    .about-us-text-container > div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 36px;
+
+    }
+
+    .about-us-text-container .aboutus-info-title{
+        color: rgb(8, 0, 31);
+        align-self: center;
+        margin: 0px 24px;
+    }
+
+    .about-us-text-container > div img{
+        width: 72px;
+    }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) and (orientation:landscape){
+
+   #aboutus-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   }
+
+   #aboutus-header{
+    height: 70vh;
+    width: 100%;
+    background: url('../images/about-us-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    position: relative;
+
+   }
+
+
+   #aboutus-header h2{
+        position: absolute;
+
+        top: 56px;
+        left: 36px;
+
+        color: white;
+
+        font-size: 2rem;
+        font-weight: 500;
+        width: 40%;
+   }
+
+   #aboutus-header > div{
+    position: absolute;
+
+    bottom: -44px;
+    right: 0;
+
+    background: white;
+    width: 65%;
+
+    margin: 0px 24px;
+    border: 0.1px solid #000000;
+    filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.2));
+
+   }
+
+   #aboutus-header > div p{
+    font-size: 0.9rem;
+    width: 100%;
+    margin: 0px;
+    padding: 4px;
+    color: black;
+   }
+
+   #aboutus-container > h1{
+        margin: 24px 0px;
+        font-size: 3rem;
+
+   }
+
+
+   .para-item{
+    align-self: flex-start;
+    padding: 12px;
+   }
+
+   .para-item p{
+    font-size: 1rem;
+    margin: 12px 12px;
+    text-align: start;
+    width: 85%;
+   }
+
+    .aboutus-info-title{
+        margin-top: 44px;
+        align-self: flex-start;
+        margin-left: 44px;
+    }
+
+   #aboutus-information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   }
+
+   #aboutus-information > div{
+    width: 50%;
+    align-self: flex-start;
+    padding: 24px 36px;
+   }
+
+   #aboutus-information > div p{
+    margin: 24px 0px;
+   }
+
+   #about-us-element-container{
+    display: flex;
+    flex-direction: column;
+
+
+    margin-top:36px;
+    height: 100vh;
+    
+
+    /* background: url('../images/about-us-bg-c-image.jpg'); */
+    background: #eaeaea;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   #about-us-element-container > :nth-child(2){
+        margin: 36px;
+   }
+
+   #about-us-element-container > :nth-child(2) p{
+    margin: 24px 0px;
+    color: black;
+}
+
+
+   .aboutus-element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+   }
+
+   .polycab-video-image{
+    width: 100%;
+    margin-left: 44px;
+    align-self: center;
+    align-items: center;
+}
+
+    .polycab-video-image > img{
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+        
+    }
+
+ 
+
+    .about-us-text-container{
+        
+        height: 90%;
+        align-items: flex-start;
+        align-self: flex-start;
+        text-align: start;
+        margin-right: 44px;
+        margin-top: 24px;
+        
+        
+    }
+
+    .about-us-text-container > p{
+        color: rgb(1, 0, 18);
+    }
+ 
+
+    .about-us-text-container > div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 36px;
+
+    }
+
+    .about-us-text-container .aboutus-info-title{
+        color: rgb(8, 0, 31);
+        align-self: center;
+        margin: 0px 24px;
+    }
+
+    .about-us-text-container > div img{
+        width: 72px;
+    }  
+
+
+
+
+
+
+
+}
