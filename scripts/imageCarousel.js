@@ -41,36 +41,66 @@ var officeName = document.getElementById('office-location-mobile');
 var officeAddress = document.getElementById('office-address-mobile');
 var officePhone = document.getElementById('office-phone-mobile');
 
+var nextOffice = document.getElementById('next-office');
+var previousOffice = document.getElementById('previous-office');
 
 var count = 0;
 
 
-var officeCounter = setInterval(imageCounts, 5000);
+nextOffice.addEventListener('click', function(){
 
-function imageCounts(){
-    
+    console.log("Next Office button clicked");
     if(count<offices.length){
-        console.log("Current content is /t" + count + '/n' + offices[count].name);
-        var officeElement = offices[count++];
-
-        officeLocationItem.style.visibility = 'hidden';
-
-        officeName.textContent = officeElement.name;
-        officeAddress.textContent = officeElement.location;
-        officePhone.textContent = officeElement.phone;
-        
-        officeLocationItem.style.visibility = 'visible';
+        count++;
     }
 
     else{
         count = 0;
-
-        var officeElement = offices[count++];
-        officeName.textContent = officeElement.name;
-        officeAddress.textContent = officeElement.location;
-        officePhone.textContent = officeElement.phone;
-        console.log("Current content is /t" + count);
     }
 
+    changeOfficeValue();
+
+});
+
+previousOffice.addEventListener('click', function(){
+
+    
+    if(count>0){
+        count--;
+        console.log("previous Office button clicked");
+    }
+
+    else{
+        count = offices.length -1;
+    }
+
+    changeOfficeValue(count);
+
+});
+
+
+
+var officeCounter = setInterval(imageCounts, 10000);
+
+function imageCounts(){
+    
+    if(count>offices.length-1){ 
+        count = 0;
+    }
+
+    changeOfficeValue(count);
+
 };
+
+function changeOfficeValue(count){
+    var officeElement = offices[count];
+
+    officeLocationItem.style.visibility = 'hidden';
+
+    officeName.textContent = officeElement.name;
+    officeAddress.textContent = officeElement.location;
+    officePhone.textContent = officeElement.phone;
+    
+    officeLocationItem.style.visibility = 'visible';
+}
 

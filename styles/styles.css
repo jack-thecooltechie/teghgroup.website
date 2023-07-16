@@ -28,7 +28,7 @@ h1, h2, h3, h4{
     font-weight: 800;
 }
 
-#whatsapp-sticky-icon{
+#whatsapp-sticky-icon a{
     position: fixed;
     right: 24px;
     bottom: 24px;
@@ -181,7 +181,7 @@ h1, h2, h3, h4{
 }
 
 .company-logo{
-    height: 96px;
+    height: 72px;
     
 }
 
@@ -382,110 +382,128 @@ h1, h2, h3, h4{
 
 
 #hero-container-changed{
-    /* background: url('./images/bg-image-changed.jpg'); */
-    background: rgb(5, 0, 9);
+    background: url('../images/bg-image-mobile.jpg');
     background-repeat: no-repeat;
-    height: 95vh;
     background-size: 100% 100%;
-    
+    height: 60vh;
 }
-
 
 #company-title-hero{
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content:center;
-    background: rgba(255,255,255,0.0.5);
 
+    
+    padding-top: 44px;
+    
 }
 
-#company-title-hero > h1{
-    font-size: 2.5rem;
-    color: black;
-    font-weight: 800;
-    text-align: center;
-    width: 100%;
-
-}
 
 #company-title-hero > h3{
     font-size: 1.5rem;
-    color: white;
-    font-weight: 500;
-    width: 30%;
-
-    background: green;
-    margin-top: 0px;
+    color: black;
+    font-weight: 600;
+    width: 80%;
+    margin-left: 24px;
     margin-top: 16px;
-    text-align: center;
+    text-align: start;
+    align-self: flex-start;
 }
 
 #company-title-hero > h3 > span{
-    background-color: #ff000d;
     padding: 0px 4px;
     font-weight: 700;
 }
 
-#explore-products-container{
+
+.cta-button{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 40%;
 
-    position: absolute;
-    right: 8px;
-    top: 210px;
+    font-size: 0.9rem;
+    padding: 2px 4px;
+    margin-top: 24px;
+    margin-left: 24px;
+    
+    align-self: flex-start;
+    border-radius: 2px;
+    background-color: #D93731;
+    color: white;
 }
 
-#explore-products-container h3{
-    font-weight: 500;
-    font-size: 1rem;
-    color: #ff000d;
-    margin: 0px 4px;
+.cta-button > h3{
+    font-weight: 600;
 }
 
-#explore-products-container img{
+.cta-button > img{
     height: 24px;
     width: 24px;
     margin: 0px 4px;
-
-    background: transparent;
 }
 
-#explore-products-container:hover{
-
+.cta-button:hover{
+    background: black;
+    filter: drop-shadow(1px, 1px, rgba(0,0,0,1));
     cursor: pointer;
-    background: white;
-
 }
 
-#explore-products-container h3:hover{
-    
-}
 
-#polycab-container-hero{
+
+
+/* Tegh Group Brands */
+
+#teghgroup-brands{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 
-    position: absolute;
-    left: 8px;
-    bottom: 0;
+    align-self: flex-start;
+    margin-left:24px;
+    margin-top: 12px;
 }
 
-#polycab-container-hero h3{
-    font-weight: 500;
-    font-size: 1.1rem;
-    color: white;
+#group-line{
+    height: 72px;
+    width: 2px;
+    background: var(--colorBackgroundDark);
     margin: 0px 4px;
 }
 
-#polycab-container-hero img{
-    height: 36px;
-    margin: 0px 4px;
+#teghgroup-brands >:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
 }
+
+
+#teghgroup-brands >:nth-child(3) div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#teghgroup-brands >:nth-child(3) div img{
+    height: 44px;
+}
+
+#teghgroup-brands > h2{
+    font-size: 1rem;
+}
+
+#teghgroup-brands >:nth-child(3) div h3{
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+
+
+
 
 
 
@@ -498,18 +516,16 @@ h1, h2, h3, h4{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 44px;
-    padding: 8px;
+    padding: 4px;
 
-
-    column-gap: 8px;
-    row-gap: 24px;
+    row-gap: 4px;
 }
 
 .product-item{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     border-radius: 4px;
 
 }
@@ -522,8 +538,8 @@ h1, h2, h3, h4{
 }
 
 .product-item > div img{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     object-fit: contain;
 }
 
@@ -534,7 +550,9 @@ h1, h2, h3, h4{
 
 
 
-#video-container{
+
+
+.video-container{
     display: none;
 
     position: fixed;
@@ -542,27 +560,27 @@ h1, h2, h3, h4{
     z-index: 12;
 
     width: 100%;
-    height: 100vh;
+    height: 50vh;
 
     left: 0;
-    top: 0;
-    bottom: 0;
+    top: 25%;
+    
 }
 
-#video-container > div{
+.video-container > div{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
     background: var(--colorBackgroundDark);
-    margin: 64px 8px;
+    margin: 8px;
 
     width: 100%;
 }
 
 
-#close-icon-container{
+.close-icon-container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -571,43 +589,32 @@ h1, h2, h3, h4{
     align-self: flex-end;
     margin-top: 12px;
     margin-right: 12px;
-    padding: 2px 4px;
-    border-radius: 12px;
-}
-
-
-#close-icon-container:hover{
-    cursor: pointer;
-    
-    background: var(--colorAccent);
     
 }
 
 
-#close-icon-container img{
+.close-icon-container img{
     height: 24px;
     width: 24px;
     margin-left: 6px;
 }
 
-#close-icon-container h3{
+.close-icon-container h3{
     color: white;
     font-weight: 600;
 }
 
 .about-videos{
-    width: 100%;
-    height: 100%;
-
-    margin: 24px;
+    width: 90%;
+    height: 90%; 
+    margin: 16px;
 }
-
 
 #about-us-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     margin-top: 44px;
 
     position: relative;
@@ -618,29 +625,31 @@ h1, h2, h3, h4{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     margin-top: 36px;
 }
 
 .about-us-text-container {
     padding: 16px;
     margin-top: 8px;
+    align-items: center;
 }
 
 .about-us-text-container > h1{
     text-align: center;
     align-self: flex-start;
     color: var(--colorBackgroundDark);
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 .about-us-text-container > img{
-    height: 50px;
+    height: 44px;
     align-self: center;
+    background: grey;
+
 }
 
 .about-us-text-container > p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-top: 16px;
     text-align: center;
     color: #01001B;
@@ -659,33 +668,6 @@ h1, h2, h3, h4{
 
 
 
-.cta-button{
-    
-    padding: 4px 8px;
-    background: none;
-    display: flex;
-    flex-direction: row;
-    margin-top: 16px;
-
-    align-self: center;
-    text-align: center;
-    align-items: center;
-    
-}
-
-.cta-button > h3{
-    font-size: 1.2rem;
-    color: var(--colorBackgroundDark);
-    font-weight: 700;
-}
-
-.cta-button > img{
-    height: 24px;
-    width: 24px;
-    margin-left: 8px;
-}
-
-
 
 
 
@@ -693,10 +675,6 @@ h1, h2, h3, h4{
 
 
 /* Offices Container */
-
-.office-locations-container{
-
-}
 
 
 #office-container-mobile{
@@ -714,7 +692,7 @@ h1, h2, h3, h4{
 }
 
 #office-container-mobile > h1{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: white;
 }
 
@@ -729,7 +707,7 @@ h1, h2, h3, h4{
     justify-content: center;
     border-radius: 16px;
     height: 60%;
-    
+    width: 100%;
 
 
     padding: 8px;
@@ -738,7 +716,8 @@ h1, h2, h3, h4{
 
 .office-location-item > h2{
     margin: 16px 0px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    align-self: center;
 }
 
 .office-location-item > div{
@@ -751,7 +730,7 @@ h1, h2, h3, h4{
 }
 
 .office-location-item p{
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .office-location-item img{
@@ -760,9 +739,6 @@ h1, h2, h3, h4{
     margin: 0px 8px;
 }
 
-.office-location-item > h2{
-    align-self: center;
-}
 
 
 #arrows-container-office{
@@ -791,10 +767,12 @@ h1, h2, h3, h4{
     justify-content: center;
 
     margin-top: 44px;
+    margin-bottom: 44px;
 }
 
 #get-in-touch > h1{
     margin-bottom: 36px;
+    font-size: 1.4rem;
 }
 
 #get-in-touch > div:not(.cta-button){
@@ -810,7 +788,7 @@ h1, h2, h3, h4{
 #get-in-touch > div input{
     width: 90%;
     margin-top: 0px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border-radius: 4px;
     border-style: solid solid solid solid;
     border-color: black;
@@ -818,11 +796,12 @@ h1, h2, h3, h4{
     background: transparent;
     text-align: start;
 
-    padding: 16px 8px;
+    padding: 12px 8px;
 }
 
 #get-in-touch > .cta-button{
     align-self: center;
+    width: 50%;
 }
 
 
@@ -848,11 +827,13 @@ h1, h2, h3, h4{
 }
 
 .footer-item h2{
-    font-size: 1.1rem;
+    font-size: 1rem;
     align-self: flex-start;
     text-align: flex-start;
-
+    font-weight: 700;
     color: var(--textColor);
+
+
 }
 
 .footer-item ul{
@@ -878,14 +859,15 @@ h1, h2, h3, h4{
 }
 
 #logo-container-footer > img{
-    height: 100px;
+    height: 72px;
     align-self: flex-start;
 }
 
 #logo-container-footer > h1{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: start;
     color: var(--textColor);
+    align-self: flex-start;
 }
 
 #contact-details-container-footer p{
@@ -1121,6 +1103,7 @@ h1, h2, h3, h4{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 
@@ -1130,7 +1113,11 @@ h1, h2, h3, h4{
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content:center;
+    justify-content:space-around;
+    width: 100%;
+    
+    margin-left:64px;
+    
     
 }
 
@@ -1142,21 +1129,23 @@ h1, h2, h3, h4{
 }
 
 #company-title-hero > h3{
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     color: black;
     font-weight: 700;
     width: 50%;
     margin-top: 16px;
     text-align: start;
+    align-self: flex-start;
 
     background: none;
+    
 }
 
     .hero-cta{
         background: #D93731;
         border-radius: 0px;
-        margin-left: 44px;
-        padding: 8px 16px;
+        margin-left: 64px;
+        margin-top: 24px;
     }
 
     .hero-cta > img{
@@ -1237,6 +1226,53 @@ h1, h2, h3, h4{
     height: 56px;
     margin: 0px 8px;
 }
+
+
+
+#teghgroup-brands{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+
+    align-self: flex-start;
+    margin-left:24px;
+    margin-top: 96px;
+}
+
+#group-line{
+    height: 136px;
+    width: 2px;
+    background: var(--colorBackgroundDark);
+    margin: 0px 8px;
+}
+
+#teghgroup-brands >:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+
+#teghgroup-brands >:nth-child(3) div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#teghgroup-brands >:nth-child(3) div img{
+    height: 64px;
+}
+
+#teghgroup-brands >:nth-child(3) div h3{
+    font-weight: 700;
+}
+
+
 
 
 
@@ -1459,17 +1495,19 @@ b. Get a colorful background
 
 .cta-button{
     font-size: 1.2rem;
-    padding: 4px 8px;
-    margin-top: 16px;
+    padding: 6px 10px;
+    margin-top: 24px;
+    
     align-self: flex-start;
-    border-radius: 16px;
+    border-radius: 2px;
+    background-color: #D93731;
+    color: white;
 }
 
 .cta-button:hover{
-    background: white;
+    background: black;
     filter: drop-shadow(1px, 1px, rgba(0,0,0,1));
     cursor: pointer;
-    
 }
 
 

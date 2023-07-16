@@ -2,11 +2,18 @@
 
 
 
-
 .menu-pages{
     background: var(--colorDark);
 }
 
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) and (orientation:landscape){
 .page-title{
     color: var(--colorBackgroundDark);
     align-self: center;
@@ -215,5 +222,6 @@ margin-left: 6px;
         background: whitesmoke;
         cursor: pointer;
     }
-    
+}
+
 }
