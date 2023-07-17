@@ -50,15 +50,15 @@ var count = 0;
 nextOffice.addEventListener('click', function(){
 
     console.log("Next Office button clicked");
-    if(count<offices.length){
+
+    if(count<offices.length-1){
         count++;
     }
-
     else{
         count = 0;
     }
 
-    changeOfficeValue();
+    changeOfficeValue(count);
 
 });
 
@@ -88,11 +88,17 @@ function imageCounts(){
         count = 0;
     }
 
+    else{
+        count++;
+    }
+
     changeOfficeValue(count);
 
 };
 
 function changeOfficeValue(count){
+
+    console.log("Value of count is" + count);
     var officeElement = offices[count];
 
     officeLocationItem.style.visibility = 'hidden';

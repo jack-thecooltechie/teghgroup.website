@@ -107,9 +107,9 @@
    #about-us-element-container{
     display: flex;
     flex-direction: column;
-
+    align-items: center;
+    justify-content: center;
     margin-top:24px;
-    height: 100vh;
     
 
     /* background: url('../images/about-us-bg-c-image.jpg'); */
@@ -134,22 +134,21 @@
 
    .aboutus-element{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     
    }
 
    .polycab-video-image{
-    width: 50%;
-    margin-left: 44px;
+    width: 100%;
     align-self: center;
     align-items: center;
 }
 
     .polycab-video-image > img{
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
         object-fit: contain;
         
     }
@@ -162,7 +161,6 @@
         align-items: flex-start;
         align-self: flex-start;
         text-align: start;
-        margin-right: 44px;
         margin-top: 24px;
         
         
@@ -186,13 +184,20 @@
     .about-us-text-container .aboutus-info-title{
         color: rgb(8, 0, 31);
         align-self: center;
-        margin: 0px 24px;
+        margin: 0px 8px;
     }
 
     .about-us-text-container > div img{
-        width: 72px;
+        width: 64px;
     }  
 
+    .about-us-text-container > div h2{
+        font-size: 1.2rem;
+        width: 100%;
+        align-self: center;
+        text-align: center;
+        font-weight: 700;
+    }  
 
 
 
@@ -232,13 +237,13 @@
         position: absolute;
 
         top: 56px;
-        left: 36px;
+        left: 56px;
 
         color: white;
 
-        font-size: 2rem;
+        font-size: 2.2rem;
         font-weight: 500;
-        width: 40%;
+        width: 50%;
    }
 
    #aboutus-header > div{
@@ -248,17 +253,22 @@
     right: 0;
 
     background: white;
-    width: 65%;
+    width: 55%;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
     margin: 0px 24px;
-    border: 0.1px solid #000000;
+    border: 0.1px solid rgba(0,0,0,0.1);
     filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.2));
 
    }
 
    #aboutus-header > div p{
     font-size: 0.9rem;
-    width: 100%;
+    width: 95%;
     margin: 0px;
     padding: 4px;
     color: black;
@@ -284,7 +294,7 @@
    }
 
     .aboutus-info-title{
-        margin-top: 44px;
+        margin-top: 96px;
         align-self: flex-start;
         margin-left: 44px;
     }
@@ -294,6 +304,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+   }
+
+   #aboutus-information .cta-button{
+    min-width: 200px;
+    max-width: 300px;
    }
 
    #aboutus-information > div{
@@ -312,7 +327,6 @@
 
 
     margin-top:36px;
-    height: 100vh;
     
 
     /* background: url('../images/about-us-bg-c-image.jpg'); */
@@ -341,15 +355,15 @@
    }
 
    .polycab-video-image{
-    width: 100%;
+    width: 600px;
     margin-left: 44px;
     align-self: center;
     align-items: center;
 }
 
     .polycab-video-image > img{
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
         object-fit: contain;
         
     }
@@ -362,7 +376,6 @@
         align-items: flex-start;
         align-self: flex-start;
         text-align: start;
-        margin-right: 44px;
         margin-top: 24px;
         
         
