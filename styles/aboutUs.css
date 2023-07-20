@@ -46,7 +46,7 @@
    #aboutus-header > div{
 
 
-    background: rgba(255,255,255,0.25);
+    background: rgba(0,0,0,0.3);
     width: 100%;
 
     margin: 0px 8px;
@@ -222,7 +222,7 @@
    }
 
    #aboutus-header{
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     background: url('../images/about-us-background.jpg');
     background-repeat: no-repeat;
@@ -249,12 +249,12 @@
    #aboutus-header > div{
     position: absolute;
 
-    bottom: -44px;
     right: 0;
-
-    background: white;
+    bottom: 0;
+    background: none;
     width: 55%;
 
+    background: rgba(0,0,0,0.3);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -267,11 +267,11 @@
    }
 
    #aboutus-header > div p{
-    font-size: 0.9rem;
+    font-size: 1rem;
     width: 95%;
     margin: 0px;
     padding: 4px;
-    color: black;
+    color: white;
    }
 
    #aboutus-container > h1{

@@ -97,7 +97,7 @@ a,a:hover, a:visited{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--colorDark);
+    background: var(--colorBackgroundDark);
     padding: 8px;
 }
 
@@ -392,7 +392,7 @@ a,a:hover, a:visited{
 
 
 #hero-container-changed{
-    background: url('../images/bg-image-mobile-b.jpg');
+    background: url('../images/bg-image-mobile-updated.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 60vh;
@@ -435,8 +435,8 @@ a,a:hover, a:visited{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    min-width: 80px;
-    max-width: 150px;
+    min-width: 100px;
+    max-width: 200px;
 
     font-size: 0.8rem;
     padding: 2px 4px;
@@ -502,8 +502,13 @@ a,a:hover, a:visited{
     justify-content: flex-start;
 }
 
-#teghgroup-brands >:nth-child(3) div img{
+#mumbai-logo{
     height: 36px;
+}   
+
+#delhi-logo{
+    height: 23px;
+    margin-left: 3px;
 }
 
 #teghgroup-brands > h2{
@@ -1113,7 +1118,7 @@ a,a:hover, a:visited{
 
 
 #hero-container-changed{
-    background: url('../images/hero-image-updated.jpg');
+    background: url('../images/tegh-group-bg-image-updated.jpg');
     background-repeat: no-repeat;
     height: 75vh;
     background-size: 100% 100%;
@@ -1126,10 +1131,14 @@ a,a:hover, a:visited{
 
 }
 
-#hero-container-changed .cta-button{
-    margin-left: 64px;
+#hero-container-changed a {
+    margin-left: 32px;
 }
 
+
+.cta-link{
+    align-self: flex-start;
+}
 
 #company-title-hero{
 
@@ -1220,9 +1229,6 @@ a,a:hover, a:visited{
 
 }
 
-#explore-products-container h3:hover{
-    
-}
 
 #polycab-container-hero{
     display: flex;
@@ -1263,6 +1269,10 @@ a,a:hover, a:visited{
     margin-top: 96px;
 }
 
+#teghgroup-brands h2{
+    font-size: 1.2rem;
+}
+
 #group-line{
     height: 136px;
     width: 2px;
@@ -1285,12 +1295,18 @@ a,a:hover, a:visited{
     justify-content: flex-start;
 }
 
-#teghgroup-brands >:nth-child(3) div img{
+#mumbai-logo{
     height: 64px;
+}   
+
+#delhi-logo{
+    height: 40px;
+    margin-left: 5.5px;
 }
 
 #teghgroup-brands >:nth-child(3) div h3{
     font-weight: 700;
+    font-size: 1.1rem;
 }
 
 
@@ -1526,7 +1542,7 @@ b. Get a colorful background
     background-color: #D93731;
     color: white;
     min-width: 100px;
-    max-width: 200px;
+    max-width: 300px;
 
     margin-left: 0px;
 }
@@ -1712,6 +1728,10 @@ b. Get a colorful background
 .footer-item ul li{
     margin: 4px 0px;
     color: var(--textColor);
+}
+
+.footer-item ul li a:hover{
+    color: var(--colorAccent);
 }
 
 #logo-container-footer{
