@@ -97,7 +97,7 @@ a,a:hover, a:visited{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: var(--colorBackgroundDark);
+    background: var(--colorDark);
     padding: 8px;
 }
 
