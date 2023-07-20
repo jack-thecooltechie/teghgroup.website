@@ -150,7 +150,7 @@ a,a:hover, a:visited{
 /* Menu Bar Mobile Closed */
 
 #menu-bar-closed-mobile{
-    background: white;
+    background: var(--colorBackgroundDark);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -174,6 +174,13 @@ a,a:hover, a:visited{
     animation: NavBarAnimation 0.2s linear forwards;
 }
 
+.tegh-title{
+    color: whitesmoke;
+    margin: 4px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
 
 
 #menu-bar-open-mobile{
@@ -190,10 +197,9 @@ a,a:hover, a:visited{
     display: none;
 }
 
-.company-logo{
+/* .company-logo{
     height: 72px;
-    
-}
+} */
 
 #hamburger-icon{
     height: 24px;
@@ -209,6 +215,9 @@ a,a:hover, a:visited{
     opacity: 0;
     animation: NavIconAnimation 0.5s linear forwards;
     animation-delay: 0.5s;
+
+    height: 24px;
+    width: 24px;
 }
 
 
@@ -255,7 +264,7 @@ a,a:hover, a:visited{
     align-items: center;
     justify-content: center;
 
-    margin-top: 24px;
+    
 }
 
 .menu-container > ul{
@@ -267,7 +276,7 @@ a,a:hover, a:visited{
 }
 
 .menu-container > ul li a{
-    font-size: 1.1rem;
+    font-size: 1rem;
     color:white;
     text-decoration: none;
 }
@@ -320,7 +329,8 @@ a,a:hover, a:visited{
 }
 
 #menu-bar-open-mobile > :nth-child(1) div h3{
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: 500;
     color: white;
     margin: 0px 8px;
 }
@@ -392,7 +402,7 @@ a,a:hover, a:visited{
 
 
 #hero-container-changed{
-    background: url('../images/bg-image-mobile-updated.jpg');
+    background: url('../images/mobile-hero-image.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 60vh;
@@ -1118,7 +1128,7 @@ a,a:hover, a:visited{
 
 
 #hero-container-changed{
-    background: url('../images/tegh-group-bg-image-updated.jpg');
+    background: url('../images/desktop-hero-image.jpg');
     background-repeat: no-repeat;
     height: 75vh;
     background-size: 100% 100%;
@@ -1742,8 +1752,6 @@ b. Get a colorful background
     align-self: center;
     width: 25%;
 
-    
-    
 }
 
 #logo-container-footer > img{
@@ -1751,10 +1759,10 @@ b. Get a colorful background
 }
 
 #logo-container-footer > h1{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
     color: var(--textColor);
-
+    align-self: center;
     
 }
 
