@@ -512,11 +512,11 @@ a,a:hover, a:visited{
     justify-content: flex-start;
 }
 
-#mumbai-logo{
+.mumbai-logo{
     height: 36px;
 }   
 
-#delhi-logo{
+.delhi-logo{
     height: 23px;
     margin-left: 3px;
 }
@@ -936,6 +936,7 @@ a,a:hover, a:visited{
 /* For laptops and screens*/
 @media screen and (min-width: 1200px) and (max-width: 1440px) and (orientation:landscape){
 
+
     #top-bar{
         padding: 8px;
     }
@@ -1105,6 +1106,53 @@ a,a:hover, a:visited{
         flex-direction: column;
     }
 
+
+
+
+
+    #branch-definer{
+        display: flex;
+        flex-direction: row;
+        color: white;
+
+        position: absolute;
+
+        top: 0;
+        left: 0;
+
+        background: var(--colorBackgroundDark)
+    }
+
+    #branch-definer > div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        padding: 0px 12px;
+
+        
+    }
+
+    #branch-definer > div:hover *{
+        cursor: pointer;
+
+        transform: scale(1.02);
+        -webkit-transform: scale(1.02);
+    }
+
+    #branch-definer .mumbai-logo{
+        height: 44px;
+    } 
+
+    #branch-definer .delhi-logo{
+        height: 28px;
+    }
+
+
+    #mumbai-branch-container{
+        background: blue;
+    }
  
 
 
@@ -1132,6 +1180,7 @@ a,a:hover, a:visited{
     background-repeat: no-repeat;
     height: 75vh;
     background-size: 100% 100%;
+    position: relative;
     
 
     display: flex;
@@ -1305,11 +1354,11 @@ a,a:hover, a:visited{
     justify-content: flex-start;
 }
 
-#mumbai-logo{
+.mumbai-logo{
     height: 64px;
 }   
 
-#delhi-logo{
+.delhi-logo{
     height: 40px;
     margin-left: 5.5px;
 }
