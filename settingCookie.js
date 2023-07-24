@@ -1,0 +1,3 @@
+
+
+document.cookie = "isdelhi=false";

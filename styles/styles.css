@@ -386,6 +386,44 @@ a,a:hover, a:visited{
  /* Hero Section */
 
 
+ #branch-definer{
+    display: flex;
+    flex-direction: row;
+    color: white;
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    background: whitesmoke;
+}
+
+#branch-definer > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0px 8px;
+    color: black;
+}
+
+
+#branch-definer .mumbai-logo{
+    height: 36px;
+} 
+
+#branch-definer .delhi-logo{
+    height: 20px;
+}
+
+#mumbai-branch-container{
+    background: #fffb00;
+}
+
+
+
  #company-name{
     font-size: 4rem;
     font-weight: bold;
@@ -406,6 +444,8 @@ a,a:hover, a:visited{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 60vh;
+
+    position: relative;
 }
 
 #company-title-hero{
@@ -700,6 +740,10 @@ a,a:hover, a:visited{
     object-fit: cover;
 }
 
+.teghgroup-image-container:hover{
+    cursor: pointer;
+}
+
 
 
 
@@ -840,6 +884,11 @@ a,a:hover, a:visited{
 }
 
 
+#delhi-address-home{
+    display: none;
+}
+
+
 /* Footer */
 
 #footer{
@@ -930,6 +979,20 @@ a,a:hover, a:visited{
 
 
 
+#copyright-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: black;
+    color: white;
+
+    padding: 8px 0px;
+}
+
+#copyright-bar{
+    font-size: 0.6rem;
+}
 
 
 
@@ -1113,14 +1176,12 @@ a,a:hover, a:visited{
     #branch-definer{
         display: flex;
         flex-direction: row;
-        color: white;
 
         position: absolute;
 
         top: 0;
         left: 0;
 
-        background: var(--colorBackgroundDark)
     }
 
     #branch-definer > div{
@@ -1149,11 +1210,6 @@ a,a:hover, a:visited{
         height: 28px;
     }
 
-
-    #mumbai-branch-container{
-        background: blue;
-    }
- 
 
 
 
@@ -1243,7 +1299,7 @@ a,a:hover, a:visited{
     }
 
     .hero-cta > h3{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         color: white;
         font-weight: 600;
     }
@@ -1592,9 +1648,10 @@ b. Get a colorful background
 
 
 .cta-button{
-    font-size: 1.1rem;
-    padding: 4px 4px;
+    font-size: 1rem;
+    padding: 4px 8px;
     margin-top: 24px;
+    font-weight: 500;
     
     align-self: flex-start;
     border-radius: 2px;
@@ -1677,6 +1734,10 @@ b. Get a colorful background
 
 .office-location-item > h2{
     align-self: center;
+}
+
+#office-container-desktop :nth-child(6){
+    justify-content: space-evenly;
 }
 
 
@@ -1839,6 +1900,21 @@ b. Get a colorful background
 
 }
 
+
+#copyright-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: black;
+    color: white;
+
+    padding:8px;
+}
+
+#copyright-bar{
+    font-size: 0.8rem;
+}
 
 
 /* For tablets vertical */
