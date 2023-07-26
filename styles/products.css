@@ -9,117 +9,6 @@
 
 
 
-
-
-
-
-@media screen and (min-width: 1200px) and (max-width: 1440px) and (orientation:landscape){
-.page-title{
-    color: var(--colorBackgroundDark);
-    align-self: center;
-    text-align: center;
-
-    margin-top: 44px;
-    font-size: 2.5rem;
-}
-
-
-
-#product-container{
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-
-
-
-}
-
-#product-image-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 24px;
-}
-
-#product-detail-container{
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    align-self: flex-start;
-
-    padding: 16px;
-}
-
-#product-detail-container p{
-    margin-top: 24px;
-}
-
-#product-image-container > :nth-child(1){
-    height: 300px;
-    width: 300px;
-}
-
-#product-image-container > :nth-child(1) img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-
-#product-detail-container > :nth-child(3){
-    display: flex;
-    flex-direction: column;
-
-    margin-top: 24px;
-}
-
-#product-detail-container > :nth-child(3) ul{
-    list-style: disc;
-    margin-top: 12px;
-}
-
-#product-detail-container > :nth-child(3) ul li{
-   margin-top: 4px;
-
-   margin-top: 4px;
-   margin-left: 24px;
-}
-
-#enquire-product-button{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 36px;
-    align-self: flex-start;
-}
-
-#enquire-product-button img{
-display: inline-flex;
-height: 24px;
-width: 24px;
-margin-left: 6px;
-}
-
-#enquire-product-button h3{
-    font-weight: 600;
-    display: inline-flex;
-}
-
-#enquire-product-button:hover{
-    background: var(--colorBackgroundDark);
-
-}
-
-
-
-
-
-
-
 @media screen and (min-width: 1200px) and (max-width: 1440px) and (orientation:landscape){
 
     .menu-pages{
@@ -128,11 +17,11 @@ margin-left: 6px;
     
     .page-title{
         color: var(--colorBackgroundDark);
-        align-self: center;
-        text-align: center;
+        align-self: flex-start;
+        text-align: start;
     
         margin-top: 36px;
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
     
     
@@ -151,7 +40,9 @@ margin-left: 6px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        
         width: 30%;
+        margin-top: 24px;
     }
     
     #product-detail-container{
@@ -159,7 +50,7 @@ margin-left: 6px;
         flex-direction: column;
         align-items: stretch;
         justify-content: center;
-        align-self: flex-start;
+        
         margin-left: 56px;
         margin-right: 12px;
     
@@ -167,11 +58,12 @@ margin-left: 6px;
     
     #product-detail-container p{
         margin-top: 24px;
+        font-size: 0.9rem;
     }
     
     #product-image-container > :nth-child(1){
-        height: 400px;
-        width: 400px;
+        height: 320px;
+        width: 320px;
     }
     
     #product-image-container > :nth-child(1) img{
@@ -179,23 +71,8 @@ margin-left: 6px;
         width: 100%;
         object-fit: contain;
     }
-    
-    #product-detail-container > :nth-child(3){
-        display: flex;
-        flex-direction: column;
-    
-        margin-top: 24px;
-    }
-    
-    #product-detail-container > :nth-child(3) ul{
-        list-style: disc;
-        margin-top: 12px;
-    }
-    
-    #product-detail-container > :nth-child(3) ul li{
-       margin-top: 4px;
-       margin-left: 24px;
-    }
+
+
     
     #enquire-product-button{
         display: flex;
@@ -222,6 +99,27 @@ margin-left: 6px;
         background: whitesmoke;
         cursor: pointer;
     }
+
+
+    .products-items-container{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: flex-start;
+        margin: 44px 0px;
+
+    }
+
+    .product-item{
+        height: 100px;
+
+    }
+
+    .product-item > img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+
+    }
 }
 
-}

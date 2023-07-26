@@ -38,14 +38,12 @@ var mumbaiAddress = document.getElementById('mumbai-address-home');
 
 
 
-console.log('Value of C at starting is' + valueOfC)
 
 var valueOfC = document.cookie;
 
+console.log('Value of C at starting is' + valueOfC)
+
 changeValue();
-
-
-
 
 mumbaiBranchItem.addEventListener('click', function(){
     document.cookie = "isDelhi=false";
@@ -99,6 +97,9 @@ function changeValue(){
         for(var i=0; i<addressItems.length;i++){
             addressItems[i].innerHTML = mumbaiObject.address;
         }
+
+        delhiAddress.style.display = 'none';
+        mumbaiAddress.style.display = 'flex';
     }
 
     console.log(valueOfC);
