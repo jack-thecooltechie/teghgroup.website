@@ -14,15 +14,18 @@
     .menu-pages{
         background: var(--colorDark);
     }
-    
-    .page-title{
-        color: var(--colorBackgroundDark);
-        align-self: flex-start;
+
+    #teghgroup-title-products{
+        font-size: 1.1rem;
+        align-self: center;
         text-align: start;
-    
-        margin-top: 36px;
-        font-size: 1.5rem;
+        margin: 44px 24px;
+        width: 100%;
+        color: #020031;
+        font-weight: 700;
+        text-decoration: underline;
     }
+    
     
     
     
@@ -31,7 +34,11 @@
         flex-direction: row;
         align-items: stretch;
         justify-content: center;
-        padding: 24px;
+        height: 50vh;
+        margin-bottom: 64px;
+        margin-top: 24px;
+
+
     
     }
     
@@ -39,67 +46,33 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
+        width: 40%;
         
-        width: 30%;
-        margin-top: 24px;
     }
     
     #product-detail-container{
         display: flex;
         flex-direction: column;
-        align-items: stretch;
-        justify-content: center;
-        
-        margin-left: 56px;
-        margin-right: 12px;
-    
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 60%;
     }
     
     #product-detail-container p{
         margin-top: 24px;
-        font-size: 0.9rem;
+        font-size: 1rem;
+        line-height: 2rem;
+
+        width: 90%;
     }
     
-    #product-image-container > :nth-child(1){
-        height: 320px;
-        width: 320px;
-    }
-    
-    #product-image-container > :nth-child(1) img{
-        height: 100%;
-        width: 100%;
+    #product-image-container > img{
+        height: 500px;
+        width: 500px;
         object-fit: contain;
     }
-
-
     
-    #enquire-product-button{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin-top: 36px;
-        align-self: flex-start;
-    }
-    
-    #enquire-product-button img{
-    display: inline-flex;
-    height: 24px;
-    width: 24px;
-    margin-left: 6px;
-    }
-    
-    #enquire-product-button h3{
-        font-weight: 600;
-        display: inline-flex;
-    }
-    
-    #enquire-product-button:hover{
-        background: whitesmoke;
-        cursor: pointer;
-    }
-
 
     .products-items-container{
         display: flex;
