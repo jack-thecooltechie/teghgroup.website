@@ -1,0 +1,86 @@
+@import url('./styles.css');
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) and (orientation:landscape)
+{
+
+    #industries-hero-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+    
+        width: 100%;
+        background: url('../images/industries-hero-edited-version.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #industries-hero-container .cta-link{
+        align-self: center;
+    }
+
+    #industries-hero-container h1{
+        color: white;
+    }
+
+
+
+    /* Warehouse Container */
+
+    #warehouse-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        padding: 24px;
+    }
+
+
+    #warehouse-container > div{
+        width: 50%;
+
+    }
+
+    #warehouse-container >:nth-child(1){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #warehouse-container > div img{
+        height: 75%;
+        width: 75%;
+        object-fit: contain;
+    }
+
+    #warehouse-container >:nth-child(2) p{
+        font-size: 0.9rem;
+        line-height: 1.7rem;
+        width: 80%;
+    }
+
+    #warehouse-container > div >:nth-child(2){
+        margin-top: 24px;
+    }
+
+    #industries-group-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 80vh;
+
+        margin: 44px 0px;
+    }
+
+    #industries-group-image > img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+}
