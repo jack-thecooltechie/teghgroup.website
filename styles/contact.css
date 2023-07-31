@@ -206,7 +206,7 @@
     
 
 
-
+/* Screens and Desktop*/
 @media screen and (min-width: 1200px) and (max-width: 1440px) and (orientation:landscape){
 
 
@@ -402,6 +402,1108 @@
 #office-wt-map > .office-location-item{
         background: white;
         margin: 18px;
+    }
+
+
+ #office-wt-map >:nth-child(3){
+    width: 50%;
+    justify-content: space-evenly;
+ }   
+}
+
+
+/* Phones Landscape */
+@media screen and (min-width: 568px) and (max-width: 736px) and (orientation:landscape){
+
+
+
+/* Contact Hero Container */    
+#contact-hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+
+    width: 100%;
+    background: url('../images/contactus-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact-hero-container >:nth-child(1){
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-hero-container >:nth-child(1) .cta-link{
+
+    align-self: center;
+    margin-top: 0px;
+}
+
+
+#contact-hero-container >:nth-child(2){
+    height: 20%;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#contact-hero-container >:nth-child(2) img{
+    height: 20px;
+    width: 20px;
+}
+
+#contact-hero-container .contact-detail-item{
+    display: inline-flex;
+}
+
+
+#hero-contact{
+    font-size: 1.5rem;
+}
+
+
+
+
+/* Contact Options Container*/
+
+    #contact-options-container{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: stretch;
+
+        background: var(--colorBackgroundDark);
+        margin: 36px 0px;
+    }
+
+    #get-in-touch{
+        width: 50%;
+        background: white;
+        height: 100%;
+        margin: 0px;
+        padding: 24px 0px;
+    }
+
+    #get-in-touch > .cta-link{
+        align-self: center;
+    }
+
+
+
+    /* WhatsApp Contact */
+
+    #whatsapp-contact{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+
+        align-self: stretch;
+
+
+        
+        color: white;
+
+        padding: 36px;
+    }
+
+    #whatsapp-contact > img{
+        height: 44px;
+        width: 44px;
+    }
+
+    #whatsapp-contact > h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 24px;
+
+        width: 100%;
+    }
+
+    #whatsapp-contact > p{
+        font-size: 1.1rem;
+        width: 70%;
+        margin-top: 24px;
+    }
+
+    .whatsapp-cta{
+        background-color: #51AF5B;
+    }
+
+    .whatsapp-cta:hover{
+        background-color: var(--colorAccent);
+    }
+
+
+
+
+
+
+/* Office container */ 
+
+
+#offices-container-contact{
+    background-image: url('../images/office-image-teghgroup.jpg');
+
+    height: 125vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 36px 0px;
+
+    margin-top: 64px;
+}
+
+#offices-container-contact > h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+}
+
+#offices-w-map{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: none;
+    }
+
+.office-wmap{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        background: white;
+        margin: 12px;
+        width: 500%;
+        border-radius: 12px;
+    }
+
+.office-wmap > iframe{
+        border-radius: 12px 0px 0px 12px;
+        width: 50%;
+    }
+
+.office-wmap .office-location-item h2{
+    font-size: 1rem;
+}    
+
+.office-wmap .office-location-item p{
+    font-size: 0.6rem;
+    width: 80%;
+}    
+
+
+
+#office-wt-map {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+#office-wt-map > .office-location-item{
+        background: white;
+        margin: 12px;
+    }
+
+
+ #office-wt-map >:nth-child(3){
+    width: 50%;
+    justify-content: space-evenly;
+ }   
+
+
+}
+
+/* Smaller Phone Potrait */
+@media screen and (max-width: 375px) and (orientation:portrait){
+
+}
+
+
+/* Smaller Phone Landscape */
+@media screen and (max-width: 650px) and (orientation:landscape){
+
+
+
+/* Contact Hero Container */    
+#contact-hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+
+    width: 100%;
+    background: url('../images/contactus-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact-hero-container >:nth-child(1){
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-hero-container >:nth-child(1) .cta-link{
+
+    align-self: center;
+    margin-top: 0px;
+}
+
+
+#contact-hero-container >:nth-child(2){
+    height: 20%;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#contact-hero-container >:nth-child(2) img{
+    height: 16px;
+    width: 16px;
+}
+
+#contact-hero-container .contact-detail-item{
+    display: inline-flex;
+}
+
+
+#hero-contact{
+    font-size: 1.3rem;
+}
+
+
+
+
+/* Contact Options Container*/
+
+    #contact-options-container{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: stretch;
+
+        background: var(--colorBackgroundDark);
+        margin: 36px 0px;
+    }
+
+    #get-in-touch{
+        width: 50%;
+        background: white;
+        height: 100%;
+        margin: 0px;
+        padding: 24px 0px;
+    }
+
+    #get-in-touch > .cta-link{
+        align-self: center;
+    }
+
+
+
+    /* WhatsApp Contact */
+
+    #whatsapp-contact{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+
+        align-self: stretch;
+
+
+        
+        color: white;
+
+        padding: 24px;
+    }
+
+    #whatsapp-contact > img{
+        height: 36px;
+        width: 36px;
+    }
+
+    #whatsapp-contact > h1{
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-top: 24px;
+
+        width: 100%;
+    }
+
+    #whatsapp-contact > p{
+        font-size: 0.9rem;
+        width: 70%;
+        margin-top: 24px;
+    }
+
+    .whatsapp-cta{
+        background-color: #51AF5B;
+    }
+
+    .whatsapp-cta:hover{
+        background-color: var(--colorAccent);
+    }
+
+
+
+
+
+
+/* Office container */ 
+
+
+#offices-container-contact{
+    background-image: url('../images/office-image-teghgroup.jpg');
+
+    height: 130vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 36px 0px;
+
+    margin-top: 64px;
+}
+
+#offices-container-contact > h1{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+}
+
+#offices-w-map{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: none;
+    }
+
+.office-wmap{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        background: white;
+        margin: 12px;
+        width: 50%;
+        border-radius: 12px;
+    }
+
+.office-wmap > iframe{
+        border-radius: 12px 0px 0px 12px;
+        width: 50%;
+    }
+
+.office-wmap .office-location-item h2{
+    font-size: 0.9rem;
+}    
+
+.office-wmap .office-location-item p{
+    font-size: 0.5rem;
+    width: 80%;
+}    
+
+
+
+#office-wt-map {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+#office-wt-map > .office-location-item{
+        background: white;
+        margin: 12px;
+    }
+
+
+ #office-wt-map >:nth-child(3){
+    width: 50%;
+    justify-content: space-evenly;
+ }   
+}
+
+
+
+/* For tablets and ipad portrait, 12inch not included */
+@media screen and (min-width: 700px) and (max-width: 900px) and (orientation:portrait){
+
+/* Contact Hero Container */    
+#contact-hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+
+    width: 100%;
+    background: url('../images/contactus-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact-hero-container >:nth-child(1){
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-hero-container >:nth-child(1) .cta-link{
+
+    align-self: center;
+    margin-top: 0px;
+}
+
+
+#contact-hero-container >:nth-child(2){
+    height: 20%;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#contact-hero-container >:nth-child(2) img{
+    height: 20px;
+    width: 20px;
+}
+
+#contact-hero-container .contact-detail-item{
+    display: inline-flex;
+}
+
+
+#hero-contact{
+    font-size: 1.7rem;
+}
+
+
+
+
+/* Contact Options Container*/
+
+    #contact-options-container{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: stretch;
+
+        background: var(--colorBackgroundDark);
+        margin: 36px 0px;
+    }
+
+    #get-in-touch{
+        width: 50%;
+        background: white;
+        height: 100%;
+        margin: 0px;
+        padding: 24px 0px;
+    }
+
+    #get-in-touch > .cta-link{
+        align-self: center;
+    }
+
+
+
+    /* WhatsApp Contact */
+
+    #whatsapp-contact{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+
+        align-self: stretch;
+
+
+        
+        color: white;
+
+        padding: 36px;
+    }
+
+    #whatsapp-contact > img{
+        height: 44px;
+        width: 44px;
+    }
+
+    #whatsapp-contact > h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 24px;
+
+        width: 100%;
+    }
+
+    #whatsapp-contact > p{
+        font-size: 1.1rem;
+        width: 70%;
+        margin-top: 24px;
+    }
+
+    .whatsapp-cta{
+        background-color: #51AF5B;
+    }
+
+    .whatsapp-cta:hover{
+        background-color: var(--colorAccent);
+    }
+
+
+
+
+
+
+/* Office container */ 
+
+
+#offices-container-contact{
+    background-image: url('../images/office-image-teghgroup.jpg');
+
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 36px 0px;
+
+    margin-top: 64px;
+}
+
+#offices-container-contact > h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+
+    
+}
+
+#offices-w-map{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: none;
+
+        margin-top: 24px;
+    }
+
+.office-wmap{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        background: white;
+        margin: 12px;
+        width: 50%;
+        border-radius: 12px;
+    }
+
+.office-wmap > iframe{
+        border-radius: 12px 0px 0px 12px;
+        width: 40%;
+        height: 250px;
+    }
+
+.office-wmap .office-location-item h2{
+    font-size: 1rem;
+}    
+
+.office-wmap .office-location-item p{
+    font-size: 0.8rem;
+    width: 80%;
+}    
+
+
+
+#office-wt-map {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+#office-wt-map > .office-location-item{
+        background: white;
+        margin: 12px;
+    }
+
+
+ #office-wt-map >:nth-child(3){
+    width: 50%;
+    justify-content: space-evenly;
+ }   
+    
+}
+
+
+/*For tablets and ipad till pro landscaope but the 12 inch is not included */
+@media screen and (min-width: 900px) and (max-width: 1150px) and (orientation:landscape){
+
+
+/* Contact Hero Container */    
+#contact-hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+
+    width: 100%;
+    background: url('../images/contactus-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact-hero-container >:nth-child(1){
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-hero-container >:nth-child(1) .cta-link{
+
+    align-self: center;
+}
+
+
+#contact-hero-container >:nth-child(2){
+    height: 20%;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#contact-hero-container >:nth-child(2) img{
+    height: 24px;
+    width: 24px;
+}
+
+#contact-hero-container .contact-detail-item{
+    display: inline-flex;
+}
+
+
+
+
+
+/* Contact Options Container*/
+
+    #contact-options-container{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: stretch;
+
+        background: var(--colorBackgroundDark);
+        margin: 64px 0px;
+    }
+
+    #get-in-touch{
+        width: 50%;
+        background: white;
+        height: 100%;
+        margin: 0px;
+        padding: 24px 0px;
+    }
+
+    #get-in-touch > .cta-link{
+        align-self: center;
+    }
+
+
+
+    /* WhatsApp Contact */
+
+    #whatsapp-contact{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+
+        align-self: stretch;
+
+
+        
+        color: white;
+
+        padding: 36px;
+    }
+
+    #whatsapp-contact > img{
+        height: 44px;
+        width: 44px;
+    }
+
+    #whatsapp-contact > h1{
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin-top: 24px;
+
+        width: 100%;
+    }
+
+    #whatsapp-contact > p{
+        font-size: 1.1rem;
+        width: 50%;
+        margin-top: 24px;
+    }
+
+    .whatsapp-cta{
+        background-color: #51AF5B;
+    }
+
+    .whatsapp-cta:hover{
+        background-color: var(--colorAccent);
+    }
+
+
+
+
+
+
+/* Office container */ 
+
+
+#offices-container-contact{
+    background-image: url('../images/office-image-teghgroup.jpg');
+
+    height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 64px 0px;
+
+    margin-top: 64px;
+}
+
+#offices-container-contact > h1{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+}
+
+#offices-w-map{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: none;
+
+        margin-top: 24px;
+    }
+
+.office-wmap{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: stretch;
+
+        background: white;
+        margin: 16px;
+        width: 50%;
+        border-radius: 12px;
+    }
+
+.office-wmap > iframe{
+        border-radius: 12px 0px 0px 12px;
+        width: 40%;
+        height: 260px;
+        
+    }
+
+
+
+#office-wt-map {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+#office-wt-map > .office-location-item{
+        background: white;
+        margin: 18px;
+    }
+
+
+ #office-wt-map >:nth-child(3){
+    width: 50%;
+    justify-content: space-evenly;
+ }   
+}
+
+/* iPad pro 12.9 inch*/
+@media screen and (min-width: 900px) and (max-width: 1100px) and (orientation:portrait){
+
+
+/* Contact Hero Container */    
+#contact-hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+
+    width: 100%;
+    background: url('../images/contactus-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact-hero-container >:nth-child(1){
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-hero-container >:nth-child(1) .cta-link{
+
+    align-self: center;
+    margin-top: 0px;
+}
+
+
+#contact-hero-container >:nth-child(2){
+    height: 20%;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#contact-hero-container >:nth-child(2) img{
+    height: 24px;
+    width: 24px;
+}
+
+#contact-hero-container .contact-detail-item{
+    display: inline-flex;
+}
+
+
+#hero-contact{
+    font-size: 2rem;
+}
+
+
+
+
+/* Contact Options Container*/
+
+    #contact-options-container{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: stretch;
+
+        background: var(--colorBackgroundDark);
+        margin: 36px 0px;
+    }
+
+    #get-in-touch{
+        width: 50%;
+        background: white;
+        height: 100%;
+        margin: 0px;
+        padding: 24px 0px;
+    }
+
+    #get-in-touch > .cta-link{
+        align-self: center;
+    }
+
+
+
+    /* WhatsApp Contact */
+
+    #whatsapp-contact{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+
+        align-self: stretch;
+
+
+        
+        color: white;
+
+        padding: 36px;
+    }
+
+    #whatsapp-contact > img{
+        height: 44px;
+        width: 44px;
+    }
+
+    #whatsapp-contact > h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 24px;
+
+        width: 100%;
+    }
+
+    #whatsapp-contact > p{
+        font-size: 1.1rem;
+        width: 70%;
+        margin-top: 24px;
+    }
+
+    .whatsapp-cta{
+        background-color: #51AF5B;
+    }
+
+    .whatsapp-cta:hover{
+        background-color: var(--colorAccent);
+    }
+
+
+
+
+
+
+/* Office container */ 
+
+
+#offices-container-contact{
+    background-image: url('../images/office-image-teghgroup.jpg');
+
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 36px 0px;
+
+    margin-top: 64px;
+}
+
+#offices-container-contact > h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+}
+
+#offices-w-map{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: none;
+     
+    }
+
+.office-wmap{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        background: white;
+        margin: 12px;
+        width: 50%;
+        border-radius: 12px;
+    }
+
+.office-wmap > iframe{
+        border-radius: 12px 0px 0px 12px;
+        width: 40%;
+        height: 250px;
+    }
+
+.office-wmap .office-location-item h2{
+    font-size: 1.3rem;
+}    
+
+.office-wmap .office-location-item p{
+    font-size: 0.9rem;
+    width: 80%;
+}    
+
+
+
+#office-wt-map {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+#office-wt-map > .office-location-item{
+        background: white;
+        margin: 12px;
     }
 
 

@@ -7,8 +7,66 @@
 }
 
 
+#teghgroup-title-products{
+    font-size: 1.1rem;
+    align-self: center;
+    text-align: start;
+    margin: 24px 24px;
+    width: 100%;
+    color: #020031;
+    font-weight: 700;
+    text-decoration: underline;
+}
 
 
+
+
+#product-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+#product-image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+    
+}
+
+#product-detail-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+    margin-bottom: 24px;
+}
+
+#product-detail-container p{
+    margin-top: 16px;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    width: 90%;
+}
+
+#product-image-container > img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+
+/* Screens and Desktop */
 @media screen and (min-width: 1200px) and (max-width: 1440px) and (orientation:landscape){
 
     .menu-pages{
@@ -96,3 +154,418 @@
     }
 }
 
+
+/* Phones Landscape */
+@media screen and (min-width: 568px) and (max-width: 736px) and (orientation:landscape){
+
+    .menu-pages{
+        background: var(--colorDark);
+    }
+
+    #teghgroup-title-products{
+        font-size: 1.1rem;
+        align-self: center;
+        text-align: start;
+        margin: 44px 24px;
+        width: 100%;
+        color: #020031;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    
+    
+    
+    
+    #product-container{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+        height: 70vh;
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+    
+    #product-image-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 40%;
+        
+    }
+    
+    #product-detail-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 60%;
+    }
+    
+    #product-detail-container p{
+        margin-top: 24px;
+        font-size: 0.9rem;
+        line-height: 1.8rem;
+
+        width: 90%;
+    }
+    
+    #product-image-container > img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    
+
+    .products-items-container{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: flex-start;
+        margin: 44px 0px;
+
+    }
+
+    .product-item{
+        height: 100px;
+
+    }
+
+    .product-item > img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+
+    }
+
+    .page-title{
+        font-size: 1.5rem;
+    }
+}
+
+/* Smaller Phone Potrait */
+@media screen and (max-width: 375px) and (orientation:portrait){
+
+    
+    #product-detail-container p{
+        margin-top: 16px;
+        font-size: 0.7rem;
+        line-height: 1.4rem;
+        width: 90%;
+    }
+
+    .page-title{
+        font-size: 1.3rem;
+    }
+    
+}
+
+/* Smaller Phone Landscape */
+@media screen and (max-width: 650px) and (orientation:landscape){
+    .menu-pages{
+        background: var(--colorDark);
+    }
+
+    #teghgroup-title-products{
+        font-size: 1.1rem;
+        align-self: center;
+        text-align: start;
+        margin: 44px 24px;
+        width: 100%;
+        color: #020031;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    
+    
+    
+    
+    #product-container{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+        
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+    
+    #product-image-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+        
+    }
+    
+    #product-detail-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 50%;
+    }
+    
+    #product-detail-container p{
+        margin-top: 24px;
+        font-size: 0.7rem;
+        line-height: 1.4rem;
+
+        width: 90%;
+    }
+    
+    #product-image-container > img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    
+
+    .products-items-container{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: flex-start;
+        margin: 44px 0px;
+
+    }
+
+    .product-item{
+        height: 100px;
+
+    }
+
+    .product-item > img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .page-title{
+        font-size: 1.2rem;
+    }
+}
+
+/* For tablets and ipad portrait, 12inch not included */
+@media screen and (min-width: 700px) and (max-width: 900px) and (orientation:portrait){
+
+    #teghgroup-title-products{
+        font-size: 1.5rem;
+        align-self: center;
+        text-align: start;
+        margin: 24px 24px;
+        width: 100%;
+        color: #020031;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    
+    
+    
+    
+    #product-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+    
+    #product-image-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 70%;
+    
+        
+    }
+    
+    #product-detail-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    
+    #product-detail-container p{
+        margin-top: 16px;
+        font-size: 1.1rem;
+        line-height: 2.2rem;
+        width: 90%;
+    }
+    
+    #product-image-container > img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .page-title{
+        font-size: 2rem;
+    }
+
+    #product-detail-container .cta-link{
+        align-self: center;
+    }
+    
+}
+
+/*For tablets and ipad till pro landscaope but the 12 inch is not included */
+@media screen and (min-width: 900px) and (max-width: 1150px) and (orientation:landscape){
+
+    .menu-pages{
+        background: var(--colorDark);
+    }
+
+    #teghgroup-title-products{
+        font-size: 1.5rem;
+        align-self: center;
+        text-align: start;
+        margin: 44px 24px;
+        width: 100%;
+        color: #020031;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    
+    
+    
+    
+    #product-container{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+        
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+    
+    #product-image-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+        
+    }
+    
+    #product-detail-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 50%;
+    }
+    
+    #product-detail-container p{
+        margin-top: 24px;
+        font-size: 1.1rem;
+        line-height: 2.2rem;
+
+        width: 90%;
+    }
+    
+    #product-image-container > img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    
+
+    .products-items-container{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: flex-start;
+        margin: 44px 0px;
+
+    }
+
+    .product-item{
+        height: 100px;
+
+    }
+
+    .product-item > img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .page-title{
+        font-size: 2rem;
+    }
+}
+
+/* iPad pro 12.9 inch*/
+@media screen and (min-width: 900px) and (max-width: 1100px) and (orientation:portrait){
+    
+    #teghgroup-title-products{
+        font-size: 2rem;
+        align-self: center;
+        text-align: start;
+        margin: 24px 24px;
+        width: 100%;
+        color: #020031;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    
+    
+    
+    #product-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+    
+    #product-image-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 70%;
+    
+        
+    }
+    
+    #product-detail-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    
+    #product-detail-container p{
+        margin-top: 16px;
+        font-size: 1.5rem;
+        line-height: 3rem;
+        width: 90%;
+    }
+    
+    #product-image-container > img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .page-title{
+        font-size: 3rem;
+    }
+
+    #product-detail-container .cta-link{
+        align-self: center;
+    }
+}

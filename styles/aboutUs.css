@@ -97,7 +97,7 @@
    #aboutus-information > div{
     width: 90%;
     align-self: center;
-    padding: 36px 4px;
+    padding: 16px 4px;
    }
 
    #aboutus-information > div p{
@@ -137,7 +137,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    
    }
 
    .polycab-video-image{
@@ -152,8 +151,6 @@
         object-fit: contain;
         
     }
-
- 
 
     .about-us-text-container{
         
@@ -210,7 +207,7 @@
 
 
 
-
+/* Screens and Desktop */
 @media screen and (min-width: 1200px) and (max-width: 1440px) and (orientation:landscape){
 
    #aboutus-container{
@@ -222,7 +219,7 @@
    }
 
    #aboutus-header{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     background: url('../images/about-us-background.jpg');
     background-repeat: no-repeat;
@@ -412,4 +409,1133 @@
 
 
 
+}
+
+/* Phones Landscape */
+@media screen and (min-width: 568px) and (max-width: 736px) and (orientation:landscape){
+
+
+    #aboutus-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+       }
+    
+       #aboutus-header{
+        height: 90vh;
+        width: 100%;
+        background: url('../images/about-us-background.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+        position: relative;
+    
+       }
+    
+    
+       #aboutus-header h2{
+            position: absolute;
+    
+            top: 36px;
+            left: 36px;
+    
+            color: white;
+    
+            font-size: 1.2rem;
+            font-weight: 500;
+            width: 50%;
+       }
+    
+       #aboutus-header > div{
+        position: absolute;
+    
+        right: 0;
+        bottom: 0;
+        background: none;
+        width: 75%;
+    
+        background: rgba(0,0,0,0.3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        margin: 0px 24px;
+        border: 0.1px solid rgba(0,0,0,0.1);
+        filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.2));
+    
+       }
+    
+       #aboutus-header > div p{
+        font-size: 0.75rem;
+        width: 95%;
+        margin: 0px;
+        padding: 4px;
+        color: white;
+       }
+    
+       #aboutus-container > h1{
+            margin: 24px 0px;
+            font-size: 3rem;
+    
+       }
+    
+    
+       .para-item{
+        align-self: flex-start;
+        padding: 12px;
+       }
+    
+       .para-item p{
+        font-size: 1rem;
+        margin: 12px 12px;
+        text-align: start;
+        width: 85%;
+       }
+    
+        .aboutus-info-title{
+            margin-top: 44px;
+            align-self: flex-start;
+            margin-left: 24px;
+        }
+    
+       #aboutus-information{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       }
+    
+       #aboutus-information .cta-button{
+        min-width: 200px;
+        max-width: 300px;
+       }
+    
+       #aboutus-information > div{
+        width: 50%;
+        align-self: flex-start;
+        padding: 24px 24px;
+       }
+    
+       #aboutus-information > div p{
+        margin: 24px 0px;
+        font-size: 0.9rem;
+       }
+    
+       #about-us-element-container{
+        display: flex;
+        flex-direction: column;
+    
+    
+        margin-top:36px;
+        
+    
+        /* background: url('../images/about-us-bg-c-image.jpg'); */
+        background: #eaeaea;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+    
+       #about-us-element-container > :nth-child(2){
+            margin: 36px;
+       }
+    
+       #about-us-element-container > :nth-child(2) p{
+        margin: 24px 0px;
+        color: black;
+    }
+    
+    
+       .aboutus-element{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+        
+       }
+    
+       .polycab-video-image{
+        width: 300px;
+        margin-left: 24px;
+        align-self: center;
+        align-items: center;
+    }
+    
+        .polycab-video-image > img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            
+        }
+    
+     
+    
+        .about-us-text-container{
+            
+            height: 90%;
+            align-items: flex-start;
+            align-self: flex-start;
+            text-align: start;
+            margin-top: 24px;
+            
+            
+        }
+    
+        .about-us-text-container > p{
+            color: rgb(1, 0, 18);
+        }
+     
+    
+        .about-us-text-container > div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0px;
+        }
+    
+        .about-us-text-container .aboutus-info-title{
+            color: rgb(8, 0, 31);
+            align-self: center;
+            margin: 0px 12px;
+        }
+    
+        .about-us-text-container > div img{
+            width: 40px;
+        }  
+}
+
+/* Smaller Phone Potrait */
+@media screen and (max-width: 375px) and (orientation:portrait){
+
+    
+       #aboutus-header h2{
+    
+            top: 36px;
+            left: 24px;
+    
+            color: white;
+    
+            font-size: 1.2rem;
+            font-weight: 700;
+            width: 90%;
+            margin-top: 24px;
+       }
+
+    
+       #aboutus-header > div p{
+        font-size: 0.8rem;
+       }
+    
+       #aboutus-container > h1{
+            margin: 24px 0px;
+            font-size: 2rem;
+    
+       }
+    
+        .aboutus-info-title{
+            margin-top: 44px;
+            align-self: flex-start;
+            margin-left: 16px;
+        }
+    
+       #aboutus-information{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       }
+
+       #aboutus-information > div p{
+        margin: 16px 0px;
+        font-size: 0.9rem;
+       }
+    
+       #about-us-element-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top:12px;
+        
+        background: #eaeaea;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+    
+       #about-us-element-container > :nth-child(2){
+            margin: 44px;
+       }
+    
+       #about-us-element-container > :nth-child(2) p{
+        margin: 24px 0px;
+        color: black;
+    }
+    
+    #aboutus-information .cta-button{
+        width: 70%;
+    }
+    
+    
+       .aboutus-element{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+       }
+    
+       .polycab-video-image{
+        width: 100%;
+        align-self: center;
+        align-items: center;
+    }
+    
+        .polycab-video-image > img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            
+        }
+    
+     
+    
+        .about-us-text-container{
+            
+            height: 90%;
+            align-items: flex-start;
+            align-self: flex-start;
+            text-align: start;
+            margin-top: 24px;
+            
+            
+        }
+    
+        .about-us-text-container > p{
+            color: rgb(1, 0, 18);
+        }
+     
+    
+        .about-us-text-container > div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+    
+            margin-bottom: 36px;
+    
+        }
+    
+        .about-us-text-container .aboutus-info-title{
+            color: rgb(8, 0, 31);
+            align-self: center;
+            margin: 0px 8px;
+        }
+    
+        .about-us-text-container > div img{
+            width: 64px;
+        }  
+    
+        .about-us-text-container > div h2{
+            font-size: 1.2rem;
+            width: 100%;
+            align-self: center;
+            text-align: center;
+            font-weight: 700;
+        }  
+    
+}
+
+/* Smaller Phone Landscape */
+@media screen and (max-width: 650px) and (orientation:landscape){
+
+
+    #aboutus-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+       }
+    
+       #aboutus-header{
+        height: 110vh;
+        width: 100%;
+        background: url('../images/about-us-background.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+        position: relative;
+    
+       }
+    
+    
+       #aboutus-header h2{
+            position: absolute;
+    
+            top: 36px;
+            left: 36px;
+    
+            color: white;
+    
+            font-size: 1.2rem;
+            font-weight: 500;
+            width: 50%;
+       }
+    
+       #aboutus-header > div{
+        position: absolute;
+    
+        right: 0;
+        bottom: 0;
+        background: none;
+        width: 75%;
+    
+        background: rgba(0,0,0,0.3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        margin: 0px 24px;
+        border: 0.1px solid rgba(0,0,0,0.1);
+        filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.2));
+    
+       }
+    
+       #aboutus-header > div p{
+        font-size: 0.7rem;
+        width: 95%;
+        margin: 0px;
+        padding: 4px;
+        color: white;
+       }
+    
+       #aboutus-container > h1{
+            margin: 24px 0px;
+            font-size: 3rem;
+    
+       }
+    
+    
+       .para-item{
+        align-self: flex-start;
+        padding: 12px;
+       }
+    
+       .para-item p{
+        font-size: 1rem;
+        margin: 12px 12px;
+        text-align: start;
+        width: 85%;
+       }
+    
+        .aboutus-info-title{
+            margin-top: 44px;
+            align-self: flex-start;
+            margin-left: 24px;
+        }
+    
+       #aboutus-information{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       }
+    
+       #aboutus-information .cta-button{
+        min-width: 200px;
+        max-width: 300px;
+       }
+    
+       #aboutus-information > div{
+        width: 50%;
+        align-self: flex-start;
+        padding: 24px 24px;
+       }
+    
+       #aboutus-information > div p{
+        margin: 24px 0px;
+        font-size: 0.9rem;
+       }
+    
+       #about-us-element-container{
+        display: flex;
+        flex-direction: column;
+    
+    
+        margin-top:36px;
+        
+    
+        /* background: url('../images/about-us-bg-c-image.jpg'); */
+        background: #eaeaea;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+    
+       #about-us-element-container > :nth-child(2){
+            margin: 36px;
+       }
+    
+       #about-us-element-container > :nth-child(2) p{
+        margin: 24px 0px;
+        color: black;
+    }
+    
+    
+       .aboutus-element{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+        
+       }
+    
+       .polycab-video-image{
+        width: 300px;
+        margin-left: 24px;
+        align-self: center;
+        align-items: center;
+    }
+    
+        .polycab-video-image > img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            
+        }
+    
+     
+    
+        .about-us-text-container{
+            
+            height: 90%;
+            align-items: flex-start;
+            align-self: flex-start;
+            text-align: start;
+            margin-top: 24px;
+            
+            
+        }
+    
+        .about-us-text-container > p{
+            color: rgb(1, 0, 18);
+        }
+     
+    
+        .about-us-text-container > div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0px;
+        }
+    
+        .about-us-text-container .aboutus-info-title{
+            color: rgb(8, 0, 31);
+            align-self: center;
+            margin: 0px 12px;
+        }
+    
+        .about-us-text-container > div img{
+            width: 40px;
+        }  
+}
+
+/* For tablets and ipad portrait, 12inch not included */
+@media screen and (min-width: 700px) and (max-width: 900px) and (orientation:portrait){
+
+
+
+    #aboutus-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+       }
+    
+       #aboutus-header{
+        height: 40vh;
+        width: 100%;
+        background: url('../images/about-us-background.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+        position: relative;
+    
+       }
+    
+    
+       #aboutus-header h2{
+            position: absolute;
+    
+            top: 36px;
+            left: 36px;
+    
+            color: white;
+    
+            font-size: 1.5rem;
+            font-weight: 500;
+            width: 50%;
+       }
+    
+       #aboutus-header > div{
+        position: absolute;
+    
+        right: 0;
+        bottom: 0;
+        background: none;
+        width: 75%;
+    
+        background: rgba(0,0,0,0.3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        margin: 0px 24px;
+        border: 0.1px solid rgba(0,0,0,0.1);
+        filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.2));
+    
+       }
+    
+       #aboutus-header > div p{
+        font-size: 1rem;
+        width: 95%;
+        margin: 0px;
+        padding: 4px;
+        color: white;
+       }
+    
+       #aboutus-container > h1{
+            margin: 24px 0px;
+            font-size: 3rem;
+    
+       }
+    
+    
+       .para-item{
+        align-self: flex-start;
+        padding: 12px;
+       }
+    
+       .para-item p{
+        font-size: 1rem;
+        margin: 12px 12px;
+        text-align: start;
+        width: 85%;
+       }
+    
+        .aboutus-info-title{
+            margin-top: 44px;
+            align-self: flex-start;
+            margin-left: 24px;
+        }
+    
+       #aboutus-information{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       }
+    
+       #aboutus-information .cta-button{
+        min-width: 200px;
+        max-width: 300px;
+       }
+    
+       #aboutus-information > div{
+        width: 50%;
+        align-self: flex-start;
+        padding: 24px 24px;
+       }
+    
+       #aboutus-information > div p{
+        margin: 24px 0px;
+        font-size: 0.9rem;
+       }
+    
+       #about-us-element-container{
+        display: flex;
+        flex-direction: column;
+    
+    
+        margin-top:36px;
+        
+    
+        /* background: url('../images/about-us-bg-c-image.jpg'); */
+        background: #eaeaea;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+    
+       #about-us-element-container > :nth-child(2){
+            margin: 36px;
+       }
+    
+       #about-us-element-container > :nth-child(2) p{
+        margin: 24px 0px;
+        color: black;
+    }
+    
+    
+       .aboutus-element{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+        
+       }
+    
+       .polycab-video-image{
+        width: 300px;
+        margin-left: 24px;
+        align-self: center;
+        align-items: center;
+    }
+    
+        .polycab-video-image > img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            
+        }
+    
+     
+    
+        .about-us-text-container{
+            
+            height: 90%;
+            align-items: flex-start;
+            align-self: flex-start;
+            text-align: start;
+            margin-top: 24px;
+            
+            
+        }
+    
+        .about-us-text-container > p{
+            color: rgb(1, 0, 18);
+        }
+     
+    
+        .about-us-text-container > div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0px;
+        }
+    
+        .about-us-text-container .aboutus-info-title{
+            color: rgb(8, 0, 31);
+            align-self: center;
+            margin: 0px 12px;
+        }
+    
+        .about-us-text-container > div img{
+            width: 40px;
+        }
+}
+/*For tablets and ipad till pro landscaope but the 12 inch is not included */
+@media screen and (min-width: 900px) and (max-width: 1150px) and (orientation:landscape){
+
+    #aboutus-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+       }
+    
+       #aboutus-header{
+        height: 70vh;
+        width: 100%;
+        background: url('../images/about-us-background.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+        position: relative;
+    
+       }
+    
+    
+       #aboutus-header h2{
+            position: absolute;
+    
+            top: 56px;
+            left: 56px;
+    
+            color: white;
+    
+            font-size: 2.2rem;
+            font-weight: 500;
+            width: 50%;
+       }
+    
+       #aboutus-header > div{
+        position: absolute;
+    
+        right: 0;
+        bottom: 0;
+        background: none;
+        width: 55%;
+    
+        background: rgba(0,0,0,0.3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        margin: 0px 24px;
+        border: 0.1px solid rgba(0,0,0,0.1);
+        filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.2));
+    
+       }
+    
+       #aboutus-header > div p{
+        font-size: 1rem;
+        width: 95%;
+        margin: 0px;
+        padding: 4px;
+        color: white;
+       }
+    
+       #aboutus-container > h1{
+            margin: 24px 0px;
+            font-size: 3rem;
+    
+       }
+    
+    
+       .para-item{
+        align-self: flex-start;
+        padding: 12px;
+       }
+    
+       .para-item p{
+        font-size: 1rem;
+        margin: 12px 12px;
+        text-align: start;
+        width: 85%;
+       }
+    
+        .aboutus-info-title{
+            margin-top: 96px;
+            align-self: flex-start;
+            margin-left: 44px;
+        }
+    
+       #aboutus-information{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       }
+    
+       #aboutus-information .cta-button{
+        min-width: 200px;
+        max-width: 300px;
+       }
+    
+       #aboutus-information > div{
+        width: 50%;
+        align-self: flex-start;
+        padding: 24px 36px;
+       }
+    
+       #aboutus-information > div p{
+        margin: 24px 0px;
+       }
+    
+       #about-us-element-container{
+        display: flex;
+        flex-direction: column;
+    
+    
+        margin-top:36px;
+        
+    
+        /* background: url('../images/about-us-bg-c-image.jpg'); */
+        background: #eaeaea;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+    
+       #about-us-element-container > :nth-child(2){
+            margin: 36px;
+       }
+    
+       #about-us-element-container > :nth-child(2) p{
+        margin: 24px 0px;
+        color: black;
+    }
+    
+    
+       .aboutus-element{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+        
+       }
+    
+       .polycab-video-image{
+        width: 600px;
+        margin-left: 44px;
+        align-self: center;
+        align-items: center;
+    }
+    
+        .polycab-video-image > img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            
+        }
+    
+     
+    
+        .about-us-text-container{
+            
+            height: 90%;
+            align-items: flex-start;
+            align-self: flex-start;
+            text-align: start;
+            margin-top: 24px;
+            
+            
+        }
+    
+        .about-us-text-container > p{
+            color: rgb(1, 0, 18);
+        }
+     
+    
+        .about-us-text-container > div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+    
+            margin-bottom: 36px;
+    
+        }
+    
+        .about-us-text-container .aboutus-info-title{
+            color: rgb(8, 0, 31);
+            align-self: center;
+            margin: 0px 24px;
+        }
+    
+        .about-us-text-container > div img{
+            width: 72px;
+        }  
+    
+}
+
+/* iPad pro 12.9 inch*/
+@media screen and (min-width: 900px) and (max-width: 1100px) and (orientation:portrait){
+
+
+    #aboutus-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+       }
+    
+       #aboutus-header{
+        height: 40vh;
+        width: 100%;
+        background: url('../images/about-us-background.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+        position: relative;
+    
+       }
+    
+    
+       #aboutus-header h2{
+            position: absolute;
+    
+            top: 56px;
+            left: 56px;
+    
+            color: white;
+    
+            font-size: 2.5rem;
+            font-weight: 500;
+            width: 50%;
+       }
+    
+       #aboutus-header > div{
+        position: absolute;
+    
+        right: 0;
+        bottom: 0;
+        background: none;
+        width: 65%;
+    
+        background: rgba(0,0,0,0.3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        margin: 0px 24px;
+        border: 0.1px solid rgba(0,0,0,0.1);
+        filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.2));
+    
+       }
+    
+       #aboutus-header > div p{
+        font-size: 1.1rem;
+        width: 95%;
+        margin: 0px;
+        padding: 4px;
+        color: white;
+       }
+    
+       #aboutus-container > h1{
+            margin: 24px 0px;
+            font-size: 3rem;
+    
+       }
+    
+    
+       .para-item{
+        align-self: flex-start;
+        padding: 12px;
+       }
+    
+       .para-item p{
+        font-size: 1.1rem;
+        margin: 12px 12px;
+        text-align: start;
+        width: 85%;
+       }
+    
+        .aboutus-info-title{
+            margin-top: 96px;
+            align-self: flex-start;
+            margin-left: 44px;
+        }
+    
+       #aboutus-information{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       }
+    
+       #aboutus-information .cta-button{
+        min-width: 200px;
+        max-width: 300px;
+       }
+    
+       #aboutus-information > div{
+        width: 50%;
+        align-self: flex-start;
+        padding: 24px 36px;
+       }
+    
+       #aboutus-information > div p{
+        margin: 24px 0px;
+        font-size: 1.1rem;
+       }
+    
+       #about-us-element-container{
+        display: flex;
+        flex-direction: column;
+        margin-top:36px;
+        
+    
+        /* background: url('../images/about-us-bg-c-image.jpg'); */
+        background: #eaeaea;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+    
+       #about-us-element-container > :nth-child(2){
+            margin: 36px;
+       }
+    
+       #about-us-element-container > :nth-child(2) p{
+        margin: 24px 0px;
+        color: black;
+        
+    }
+    
+    
+       .aboutus-element{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+        
+       }
+    
+       .polycab-video-image{
+        width: 600px;
+        margin-left: 44px;
+        align-self: center;
+        align-items: center;
+    }
+    
+        .polycab-video-image > img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            
+        }
+    
+     
+    
+        .about-us-text-container{
+            
+            height: 90%;
+            align-items: flex-start;
+            align-self: flex-start;
+            text-align: start;
+            margin-top: 24px;
+            
+            
+        }
+    
+        .about-us-text-container > p{
+            color: rgb(1, 0, 18);
+            font-size: 1.1rem;
+        }
+     
+    
+        .about-us-text-container > div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+    
+            margin-bottom: 36px;
+    
+        }
+    
+        .about-us-text-container .aboutus-info-title{
+            color: rgb(8, 0, 31);
+            align-self: center;
+            margin: 0px 24px;
+        }
+    
+        .about-us-text-container > div img{
+            width: 72px;
+        }  
 }

@@ -2,6 +2,7 @@
 
 
 
+/* Screens & Desktop*/
 @media screen and (min-width: 1200px) and (max-width: 1440px) and (orientation:landscape)
 {
 
@@ -83,4 +84,37 @@
         object-fit: contain;
     }
 
+}
+
+
+/* Phones Landscape */
+@media screen and (min-width: 568px) and (max-width: 736px) and (orientation:landscape){
+
+}
+
+
+/* Smaller Phone Potrait */
+@media screen and (max-width: 375px) and (orientation:portrait){
+
+}
+
+/* Smaller Phone Landscape */
+@media screen and (max-width: 650px) and (orientation:landscape){
+    
+}
+
+/* For tablets and ipad portrait, 12inch not included */
+@media screen and (min-width: 700px) and (max-width: 900px) and (orientation:portrait){
+
+}
+
+/*For tablets and ipad till pro landscaope but the 12 inch is not included */
+@media screen and (min-width: 900px) and (max-width: 1150px) and (orientation:landscape){
+
+}
+
+
+/* iPad pro 12.9 inch*/
+@media screen and (min-width: 900px) and (max-width: 1100px) and (orientation:portrait){
+    
 }
